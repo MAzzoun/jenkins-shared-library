@@ -196,6 +196,6 @@ def slackMSNotification(String Deployment_slack_channel, String message) {
 
 
 
-def firstMethode(string nom){
+def firstMethode(String nom){
     bat "bonjour je suis $nom ici"
    }

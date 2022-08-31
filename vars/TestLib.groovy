@@ -1,9 +1,4 @@
-/**
- * Classic Maven build
- * @param no parameter
- * @return
- */
-import com.pwc.dfy.services.*
+import com.pwc.dfy.services.* 
    
 def call(Map parameters = [:]) {
    def utilities = new Utilities()      

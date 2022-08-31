@@ -6,7 +6,7 @@
 def call(Map parameters = [:]) {
    
             try {
-                 bat 'echo coucou'
+                 bat 'echo ça marche'
             } catch (err) {
                 currentBuild.result = 'FAILED'
                 throw err

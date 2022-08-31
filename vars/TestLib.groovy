@@ -7,7 +7,7 @@ def call(Map parameters = [:]) {
    
    
             try {
-                 firstMethode()
+                 firstMethode(nom: "$nom")
             } catch (err) {
                 currentBuild.result = 'FAILED'
                 throw err
